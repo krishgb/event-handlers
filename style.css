@@ -1,0 +1,39 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    background: rgb(102, 41, 131);
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.events{
+    background: rgb(49, 47, 49);
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%;
+    color: lightgreen;
+}
+
+.events h2 {
+    color: coral
+}
+
+.events h4{
+    color: white
+}
+
+input:not(#checkbox) {
+    display: block;
+    margin-top: 10px;
+    padding: 5px;
+    width: 75%;
+}
